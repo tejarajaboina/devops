@@ -1,0 +1,7 @@
+opt : Install any software
+/media: for external medias
+/var: logs
+/mnt: mount to shared storages
+/etc: store most of configurations
+/dev: special files (external devices like mouse/keybord)
+/bin: stores basic programs and binaries are located (mv,cp,date)

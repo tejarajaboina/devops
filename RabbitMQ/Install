@@ -1,0 +1,37 @@
+#Install Rabbit MQ on Ubuntu Machine:
+
+```
+#update ubuntu
+sudo apt-get update
+
+#It requires Erlang
+sudo apt install erlang
+
+#Install Rabbit mq
+sudo apt install rabbitmq-server
+
+#enable Rabbitmq service
+sudo systemctl enable rabbitmq-server
+
+#start Rabbitmq Server
+sudo systemctl start rabbitmq-server
+
+# To view quies and exchanges in a dashboard we need to install a plug-in
+# default port 5672
+# default username/password : guest/guest
+
+sudo rabbitmq-plugins enable  rabbitmq_management
+
+# Add 'admin' user to rabbitmq
+# use command line tool rabbitmqctl
+
+sudo rabbitmqctl add_user admin admin
+
+# set User tags
+sudo rabbitmqctl set_user_tags admin adminstrator
+
+# Set Permission to user admin
+
+sudo rabbitmqctl set_permissions -p / admin "."".""."
+```
+
