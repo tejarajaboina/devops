@@ -10,5 +10,5 @@ But in organisation level we dont want to grant full access to every user. To so
  - AWS CLI
  - AWS SDK/ API
  - AWS Management Console
- ![iam1](../../Ref_docs/aws/IAM1.png)
+ ![iam1](../Ref_docs/aws/IAM1.png)
 
