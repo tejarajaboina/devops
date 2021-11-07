@@ -1,0 +1,42 @@
+which <file_name>
+
+ 1987  curl -Lo ./kind https://kind.sigs.k8s.io/dl/v0.11.1/kind-linux-amd64
+ 1988  chmod +x ./kind
+ 1989  $PATH
+ 1990  mv ./kind /usr/bin
+ 1991  sudo mv ./kind /usr/bin
+ 1992  kind
+ 1993  kind create cluster
+ 1994  docker ps
+ 1995  kubectl get pods
+ 1996  kubectl cluster-info
+ 1997  kubectl get nodes
+ 1998  kubectl get pods -A
+ 1999  kubectl get pods -a
+ 2000  kubectl get pods -A
+ 2001  docker ps
+ 2002  ls 
+ 2003  ls ./kube
+ 2004  ls .
+ 2005  ls -a
+ 2006  ls ./kube
+ 2007  ls .kube
+ 2008  cat config.yaml 
+ 2009  docker ps
+ 2010  exec -it kind-control-plane bash
+ 2011  docker exec -it kind-control-plane bash
+ 2012  kubectl get nodes -o wide
+ 2013  kind get cluster
+ 2014  kind get clusters
+ 2015  kind delete cluster
+ 2016  docker ps
+ 2017  kind create cluster
+ 2018  kubectl get pods
+ 2019  kubectl get nodes
+ 2020  which istioctl
+ 2021  istioctl verstion
+ 2022  istioctl version
+ 2023  kubectl get ns
+ 2024  istioctl verify-install
+ 2025  docker ps
+ 2026  docker rmi kind-control-plane

@@ -20,10 +20,10 @@ IAM basically perform 2 things
 
 ## We have to understand few terminologies
 
-### IAM User:
+### User:
     - if we are small group we have assign access to individual user
 
-### IAM Group:
+### Group:
     In organistion its difficult to customize for every user, so we will create group and add users in to groups
     ex: Admin group, developer ,...
     ![IAM Group](../Ref_docs/aws/IAM2.png)
@@ -48,3 +48,16 @@ IAM basically perform 2 things
         ![Role_app](../Ref_docs/aws/IAM5.png)
     - Role can we used by users also some times
     ![Role_app](../Ref_docs/aws/IAM6.png)
+
+### Federation policy /Identity federation
+ This will allow organisations to use there own email/ passwords to access AWS.
+ this is how we authenticate other apps with gmail/facebook.
+
+## Key Features
+* Multi factor Authentication: It adds next level authentication
+* Temporary Access:
+* Password Policy : we can controll lifetime of password
+* Integration: It can we connected in many AWS services
+* Compliance: supports PCI DSS complines (ayment card Industry)
+
+
