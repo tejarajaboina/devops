@@ -29,6 +29,4 @@ Domain Registrars:
     used for mail
 * PTR Records
     reverdse of a Record looking for name from ip address
-
-    
-
+* For Testing -added by Sai
